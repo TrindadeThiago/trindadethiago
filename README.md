@@ -1,6 +1,6 @@
 ## Olá! Eu sou o Thiago Trindade 👋
 
-Desenvolvedor **full-stack em** no **Einstein Hospital Israelita**, em São Paulo. Nas horas vagas, construo jogos, apps desktop e pipelines com IA.
+Desenvolvedor **full-stack** em **Einstein Hospital Israelita**, em São Paulo. Nas horas vagas, construo jogos, apps desktop e pipelines com IA.
 
 ### 🚀 Projetos em destaque
 
