@@ -87,5 +87,5 @@ if (next === readme) {
   console.log("Sem mudanças.");
 } else {
   writeFileSync(README, next);
-  console.log(`Atualizado: ${prs.length} PR(s) em ${repos.length} repositório(s).`);
+  console.log(`Atualizado: ${repos.reduce((n, r) => n + r.list.length, 0)} PR(s) em ${repos.length} repositório(s).`);
 }
