@@ -2,5 +2,5 @@
   "descriptions": {
     "rafaelcg/pqp": "alternativa open source ao Discord, com voz e texto em tempo real. *React + Node + WebRTC/LiveKit.*"
   },
-  "ignore": []
+  "ignore": ["Hackaton-Grupo-4/deploy-management-api"]
 }
