@@ -8,6 +8,15 @@ Desenvolvedor **full-stack** em **Einstein Hospital Israelita**, em São Paulo. 
 - **[screen-share](https://github.com/TrindadeThiago/screen-share)**: alternativa self-hosted ao compartilhamento de tela do Discord. Transmite tela, som e voz sem precisar de conta. *Electron + LiveKit.*
 - **[reddit-story-pipeline](https://github.com/TrindadeThiago/reddit-story-pipeline)**: transforma posts do Reddit em vídeos verticais, com narração por TTS (Piper/ElevenLabs), legendas via Whisper e revisão manual antes de publicar.
 
+### 🌍 Contribuições open source
+
+- **[pqp](https://github.com/rafaelcg/pqp)**: alternativa open source ao Discord, com voz e texto em tempo real. *React + Node + WebRTC/LiveKit.*
+  - [#1617](https://github.com/rafaelcg/pqp/pull/1617): o volume de cada pessoa na chamada agora é lembrado entre recarregamentos da página.
+
+<a href="https://github.com/pulls?q=is%3Apr+author%3ATrindadeThiago+is%3Amerged+-user%3ATrindadeThiago">
+  <img alt="Ver todos os PRs open source" src="https://img.shields.io/badge/PRs_open_source-ver_todos-2ea44f?style=for-the-badge&logo=github">
+</a>
+
 ### 🛠️ Tecnologias
 
 <p>
