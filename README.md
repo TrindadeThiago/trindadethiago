@@ -10,8 +10,16 @@ Desenvolvedor **full-stack** em **Einstein Hospital Israelita**, em São Paulo. 
 
 ### 🌍 Contribuições open source
 
+<!-- OSS:START -->
 - **[pqp](https://github.com/rafaelcg/pqp)**: alternativa open source ao Discord, com voz e texto em tempo real. *React + Node + WebRTC/LiveKit.*
-  - [#1617](https://github.com/rafaelcg/pqp/pull/1617): o volume de cada pessoa na chamada agora é lembrado entre recarregamentos da página.
+  - [#1617](https://github.com/rafaelcg/pqp/pull/1617): Voice: remember each person's call volume across reloads
+- **[deploy-management-api](https://github.com/Hackaton-Grupo-4/deploy-management-api)**
+  - [#8](https://github.com/Hackaton-Grupo-4/deploy-management-api/pull/8): feat: create delete post endpoint
+  - [#6](https://github.com/Hackaton-Grupo-4/deploy-management-api/pull/6): feat: create find post endpoint
+  - [#4](https://github.com/Hackaton-Grupo-4/deploy-management-api/pull/4): feat: create seed to populate database
+  - [#3](https://github.com/Hackaton-Grupo-4/deploy-management-api/pull/3): feat: create add post endpoint
+  - [#1](https://github.com/Hackaton-Grupo-4/deploy-management-api/pull/1): feat: create initial database
+<!-- OSS:END -->
 
 <a href="https://github.com/pulls?q=is%3Apr+author%3ATrindadeThiago+is%3Amerged+-user%3ATrindadeThiago">
   <img alt="Ver todos os PRs open source" src="https://img.shields.io/badge/PRs_open_source-ver_todos-2ea44f?style=for-the-badge&logo=github">

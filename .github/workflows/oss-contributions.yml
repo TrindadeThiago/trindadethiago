@@ -1,0 +1,47 @@
+name: Atualizar contribuições open source
+
+on:
+  schedule:
+    - cron: "30 9 * * *" # todo dia, 06:30 em São Paulo
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - oss-descriptions.json
+      - scripts/oss-contributions.mjs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: oss-contributions
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Gerar lista de PRs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: node scripts/oss-contributions.mjs
+
+      - name: Commitar se mudou
+        run: |
+          if git diff --quiet README.md; then
+            echo "Nada para commitar."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "README: atualiza contribuições open source"
+          git pull --rebase origin main
+          git push origin HEAD:main
